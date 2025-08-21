@@ -1,0 +1,68 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: orange;
+    font-weight: bold;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+    
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: white;
+}
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+.menu-item {
+    padding: 20px;
+    
+}
+
+.menu-image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.price {
+    display: flex;
+    justify-content: right;
+    color: red;
+    font-weight: bold;
+}
+section {
+    background-color: white;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: darkgray; 
+}
+@media screen and (max-width: 600px) {
+    .menu {
+        width: 100%;
+        float: none;
+    }
+}
